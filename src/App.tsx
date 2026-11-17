@@ -1,5 +1,8 @@
 import { Hero } from './components/Hero'
 import { Nav } from './components/Nav'
+import { Process } from './components/Process'
+import { Services } from './components/Services'
+import { ValueStrip } from './components/ValueStrip'
 
 export default function App() {
   return (
@@ -7,6 +10,9 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
+        <ValueStrip />
+        <Services />
+        <Process />
       </main>
     </div>
   )
