@@ -29,7 +29,7 @@ const serviceIcons = [
 
 export function Services() {
   return (
-    <section id="dich-vu" className="bg-background py-16 sm:py-20">
+    <section id="dich-vu" className="scroll-mt-20 bg-background py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <p className="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">

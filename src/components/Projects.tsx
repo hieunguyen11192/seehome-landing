@@ -2,7 +2,7 @@ import { site } from '../data/site'
 
 export function Projects() {
   return (
-    <section id="cong-trinh" className="bg-muted py-16 sm:py-20">
+    <section id="cong-trinh" className="scroll-mt-20 bg-muted py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <p className="font-heading text-sm font-semibold uppercase tracking-[0.2em] text-accent">

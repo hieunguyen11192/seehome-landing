@@ -33,7 +33,7 @@ export function Nav() {
           ))}
         </div>
 
-        <div className="hidden sm:block">
+        <div className="block">
           <ContactButtons phone={site.phone} zaloUrl={site.zaloUrl} size="sm" />
         </div>
       </nav>
