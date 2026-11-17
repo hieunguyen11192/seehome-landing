@@ -1,13 +1,15 @@
-import { Hero } from './components/Hero'
 import { Nav } from './components/Nav'
-import { Process } from './components/Process'
-import { Projects } from './components/Projects'
-import { Services } from './components/Services'
+import { Hero } from './components/Hero'
 import { ValueStrip } from './components/ValueStrip'
+import { Services } from './components/Services'
+import { Projects } from './components/Projects'
+import { Process } from './components/Process'
+import { CtaBand } from './components/CtaBand'
+import { Footer } from './components/Footer'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <>
       <Nav />
       <main>
         <Hero />
@@ -15,7 +17,9 @@ export default function App() {
         <Services />
         <Projects />
         <Process />
+        <CtaBand />
       </main>
-    </div>
+      <Footer />
+    </>
   )
 }
