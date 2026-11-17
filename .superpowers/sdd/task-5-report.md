@@ -4,7 +4,7 @@
 Complete.
 
 ## Commit
-- `dbb5e9d` feat: add curated project images and portfolio grid
+- `9947ca8` feat: add curated project images and portfolio grid
 
 ## Summary
 - Confirmed `heroImage` points to `/projects/hero.jpg`.
